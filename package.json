@@ -1,0 +1,26 @@
+{
+  "name": "ai-swatch-scripts",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "gulp clean compile"
+  },
+  "author": "Daniel Moore <polaris@northhorizon.net>",
+  "license": "MIT",
+  "dependencies": {
+    "json3": "~3.3.1"
+  },
+  "devDependencies": {
+    "browserify": "~3.43.0",
+    "gulp": "~3.6.1",
+    "vinyl-source-stream": "~0.1.1",
+    "underscore": "~1.6.0",
+    "browserify-extendscript": "~0.1.0",
+    "gulp-clean": "~0.2.4",
+    "gulp-rename": "~1.2.0",
+    "watchify": "~0.7.2"
+  }
+}
